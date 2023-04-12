@@ -1,5 +1,5 @@
 {% set name = "napari-buds" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-buds-{{ version }}.tar.gz
-  sha256: f33633d3b41de545956339f5233fe64be6a2e617cf243408d4a05e9bdf2708b9
+  sha256: 8e2f2028447c4544540ad81d90b9f4db840eae7ca2ef124f4ec29f4d06f2a2c6
 
 build:
   noarch: python
