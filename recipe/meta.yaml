@@ -24,6 +24,16 @@ requirements:
     - numpy
     - python >=3.8
     - qtpy
+    - pandas
+    - magic-class
+    - scipy
+    - scikit-learn
+    - scikit-image
+    - matplotlib-base
+    - joblib
+    - imageio-ffmpeg
+    - stackview
+    - jupyterlab
 
 test:
   imports:
